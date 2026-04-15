@@ -5,7 +5,6 @@ from fastapi.staticfiles import StaticFiles
 from typing import List
 import os
 import uuid
-
 import shutil
 from app.utils.config import settings
 from app.utils.db import init_db, add_document_metadata, get_all_metadata, delete_document
