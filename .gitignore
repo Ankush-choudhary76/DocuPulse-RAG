@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Project Specific
+.env
+backend.log
+temp/
+app/storage/metadata.db
+app/storage/faiss_index/
+app/storage/models/
+
+# OS
+.DS_Store
+Thumbs.db
