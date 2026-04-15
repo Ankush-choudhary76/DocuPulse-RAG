@@ -23,7 +23,6 @@ app = FastAPI(title="DocuPulse RAG API")
 groq_client = AsyncGroq(api_key=settings.GROQ_API_KEY)
 
 
-
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
